@@ -1,0 +1,33 @@
+\documentclass[Main.tex]{subfiles}
+\begin{document}
+    \section{Introduction}
+
+    \begin{lstlisting}
+    public class Program {
+        public static void main (String args[]){
+            System.out.println("Hello World!");
+        }
+    }\end{lstlisting}
+
+    Here is an example Java program. It is about as small as a Java program can be. When it runs, it writes Hello
+World! on the screen. The details will be explained later. This program can be created using a text editor
+such as the Notepad editor that comes with Windows. The program will be in a text file on the hard disk, named
+Hello.java.
+
+    \hl{A \textbf{source file} is a text file that contains a program (such as above) written in a programming
+language.} Since it contains ordinary text (stored as bytes) it can not be directly executed (run) by the computer
+system. As a text file, you can print it, display it on the monitor, or alter it with a text editor.
+
+    In order to execute a java program, it must first be compiled. The javac program is a compiler (a translator) that
+translates a source file into a file of \textbf{bytecodes}. A Java \textbf{bytecode} is a machine instruction for a
+Java processor. Usually, however, people do not have hardware Java processor chips. They have ordinary PCs. A java
+processor can be implemented as a program that reads the bytecodes and performs the operations they specify.
+This program is called a \textbf{Java Virtual Machine} (JVM).
+
+    If you have already figured out how to create, compile and run Java programs on your computer, you can skip the rest
+of this section.
+\begin{lstlisting}[language=bash]
+    javac Program.java
+
+    java Program\end{lstlisting}
+\end{document}

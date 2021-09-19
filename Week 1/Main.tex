@@ -1,0 +1,51 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=3cm]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{attachfile}
+\usepackage{subfiles}
+\usepackage{tikz}
+\usepackage{soul}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{%
+    frame=tb,
+    language=Java,
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=fullflexible,
+    basicstyle={\small\ttfamily},
+    numbers=none,
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\color{mauve},
+    breaklines=true,
+    breakatwhitespace=true,
+    keepspaces=true
+}
+
+\title{Java Programming Notes}
+\author{Dawid Sobczak}
+\date{}
+
+\begin{document}
+    \maketitle
+    \begin{abstract}
+        Week 1 PSLG Session.
+    \end{abstract}
+        \section{Summary}
+        \begin{itemize}
+         \item Java is case sensitive, an example being \lstinline{System.out.print} versus
+\lstinline{system.out.print}.
+         \item Delimiters are used to seperate or group things together. For example the
+semicolon in \lstinline{System.out.print();}
+        \end{itemize}
+
+\end{document}
